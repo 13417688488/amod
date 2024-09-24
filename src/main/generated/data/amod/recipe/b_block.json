@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:dirt"
@@ -12,7 +12,7 @@
     " # "
   ],
   "result": {
-    "count": 1,
+    "count": 3,
     "id": "amod:b_block"
   }
 }

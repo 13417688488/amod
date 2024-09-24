@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "a_group",
+  "ingredient": {
+    "item": "minecraft:ice"
+  },
+  "result": {
+    "id": "minecraft:golden_apple"
+  }
+}
