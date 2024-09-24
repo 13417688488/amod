@@ -15,6 +15,10 @@ public class ModItems {
 
     public static final Item A = registerItems("a", new Item(new Item.Settings()));
 
+    public static final Item CHEESE = registerItems("cheese", new Item(new Item.Settings().food(ModFoodComponents.CHEESE)));
+
+    public static final Item STRAWBERY = registerItems("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
+
 
 
 

@@ -19,8 +19,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.A))
                     .entries((displayContext, entries) -> {
                             entries.add(ModItems.A);
-                            entries.add(Items.DIAMOND);
-                            entries.add(Blocks.STONE);
+                            entries.add(ModItems.CHEESE);
+                            entries.add(ModItems.STRAWBERY);
                             entries.add(ModBlocks.B_BLOCK);
                     }).build());
     public static void registerModItemGroups() {

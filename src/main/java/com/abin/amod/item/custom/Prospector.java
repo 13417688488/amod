@@ -17,7 +17,7 @@ public class Prospector extends Item {
         BlockPos pos =context.getBlockPos();
         PlayerEntity player = context.getPlayer();
         World world = context.getWorld();
-        
+
         return super.useOnBlock(context);
     }
 }
