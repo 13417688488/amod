@@ -16,7 +16,7 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.A, "ITEMA");
-
+        translationBuilder.add(ModItems.PROSPECTOR, "PROSPECTOR");
         translationBuilder.add(ModItems.CHEESE, "CHEESE");
         translationBuilder.add(ModItems.STRAWBERY, "STRAWBERRY");
 

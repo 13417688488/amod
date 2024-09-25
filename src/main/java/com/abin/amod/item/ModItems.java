@@ -1,6 +1,7 @@
 package com.abin.amod.item;
 
 import com.abin.amod.AMod;
+import com.abin.amod.item.custom.Prospector;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -19,7 +20,7 @@ public class ModItems {
 
     public static final Item STRAWBERY = registerItems("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
 
-
+    public static final Item PROSPECTOR = registerItems("prospector", new Prospector(new Item.Settings().maxDamage(127)));
 
 
     public static Item registerItems(String id,Item item){

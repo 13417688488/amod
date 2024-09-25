@@ -2,6 +2,7 @@
   "block.amod.b_block": "方块B",
   "item.amod.a": "物品A",
   "item.amod.cheese": "奶酪",
+  "item.amod.prospector": "探矿器",
   "item.amod.strawberry": "草莓",
   "itemGroup.a_group": "AMOD物品组"
 }

@@ -16,6 +16,7 @@ public class ModZHCNLanProvider extends FabricLanguageProvider{
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, FabricLanguageProvider.TranslationBuilder translationBuilder) {
         translationBuilder.add(ModItems.A, "物品A");
+        translationBuilder.add(ModItems.PROSPECTOR, "探矿器");
         translationBuilder.add(ModItems.CHEESE, "奶酪");
         translationBuilder.add(ModItems.STRAWBERY, "草莓");
 
