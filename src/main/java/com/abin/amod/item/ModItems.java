@@ -1,6 +1,7 @@
 package com.abin.amod.item;
 
 import com.abin.amod.AMod;
+import com.abin.amod.item.custom.LightningStick;
 import com.abin.amod.item.custom.Prospector;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -22,6 +23,7 @@ public class ModItems {
 
     public static final Item PROSPECTOR = registerItems("prospector", new Prospector(new Item.Settings().maxDamage(127)));
 
+    public static final Item LIGHTNINGSTICK = registerItems("lightningstick", new LightningStick(new Item.Settings()));
 
     public static Item registerItems(String id,Item item){
         return Registry.register(Registries.ITEM, Identifier.of(AMod.MOD_ID,id),item);

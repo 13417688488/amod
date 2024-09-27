@@ -23,6 +23,7 @@ public class ModItemGroups {
                             entries.add(ModItems.STRAWBERY);
                             entries.add(ModBlocks.B_BLOCK);
                             entries.add(ModItems.PROSPECTOR);
+                            entries.add(ModItems.LIGHTNINGSTICK);
                     }).build());
     public static void registerModItemGroups() {
         AMod.LOGGER.info("Registering Mod Item Groups");
