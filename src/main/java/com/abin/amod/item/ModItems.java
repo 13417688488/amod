@@ -1,8 +1,10 @@
 package com.abin.amod.item;
 
 import com.abin.amod.AMod;
+import com.abin.amod.item.custom.JumpEgg;
 import com.abin.amod.item.custom.LightningStick;
 import com.abin.amod.item.custom.Prospector;
+import com.abin.amod.item.custom.Tnt;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -24,6 +26,10 @@ public class ModItems {
     public static final Item PROSPECTOR = registerItems("prospector", new Prospector(new Item.Settings().maxDamage(127)));
 
     public static final Item LIGHTNINGSTICK = registerItems("lightningstick", new LightningStick(new Item.Settings()));
+
+    public static final Item TNT = registerItems("tnt", new Tnt(new Item.Settings()));
+
+    public static final Item JUMPEGG = registerItems("jump_egg", new JumpEgg(new Item.Settings()));
 
     public static Item registerItems(String id,Item item){
         return Registry.register(Registries.ITEM, Identifier.of(AMod.MOD_ID,id),item);

@@ -2,8 +2,10 @@
   "block.amod.b_block": "BLOCKB",
   "item.amod.a": "ITEMA",
   "item.amod.cheese": "CHEESE",
+  "item.amod.jump_egg": "JUMPEGG",
   "item.amod.lightningstick": "LIGHTNINGSTICK",
   "item.amod.prospector": "PROSPECTOR",
   "item.amod.strawberry": "STRAWBERRY",
+  "item.amod.tnt": "TNT",
   "itemGroup.a_group": "AMODItemGroup"
 }

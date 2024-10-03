@@ -20,6 +20,8 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CHEESE, "CHEESE");
         translationBuilder.add(ModItems.STRAWBERY, "STRAWBERRY");
         translationBuilder.add(ModItems.LIGHTNINGSTICK, "LIGHTNINGSTICK");
+        translationBuilder.add(ModItems.TNT, "TNT");
+        translationBuilder.add(ModItems.JUMPEGG, "JUMPEGG");
 
         translationBuilder.add(ModBlocks.B_BLOCK, "BLOCKB");
 

@@ -1,9 +1,11 @@
-// 1.21.1	2024-09-26T14:47:17.080708	AMod/Model Definitions
+// 1.21.1	2024-10-02T00:25:27.1593998	AMod/Model Definitions
 5c44a18fba7b4b6846c69d1ab080c34c3bfcd073 assets\amod\models\block\b_block.json
 9d19fa6688c3bd91809aa155c6b624d6f39e905d assets\amod\blockstates\b_block.json
 b331f93de5165b9093777ab83eba879c5a0b926b assets\amod\models\item\strawberry.json
 2bb98c7d7646ed4e1ceb0bdd405489d811ed9dbd assets\amod\models\item\b_block.json
 bb00437afefac7eaa5abe1cd42e94886f58b1c2c assets\amod\models\item\lightningstick.json
+a5b90806c3dfeb418a592526b20f47618f4142de assets\amod\models\item\jump_egg.json
 414205d9cff196c0583b3eddf41c7a877e2c60e0 assets\amod\models\item\a.json
 513f9bb399696995d22cccf5484d07bbf79edaaa assets\amod\models\item\prospector.json
 dcce2b368a63372095f1d6e403a49fc86c056fb9 assets\amod\models\item\cheese.json
+34ac7f59a39deda591d35c4e04fe295caee9c67c assets\amod\models\item\tnt.json

@@ -2,8 +2,10 @@
   "block.amod.b_block": "方块B",
   "item.amod.a": "物品A",
   "item.amod.cheese": "奶酪",
+  "item.amod.jump_egg": "跳蛋",
   "item.amod.lightningstick": "闪电棒",
   "item.amod.prospector": "探矿器",
   "item.amod.strawberry": "草莓",
+  "item.amod.tnt": "TNT",
   "itemGroup.a_group": "AMOD物品组"
 }

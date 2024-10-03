@@ -20,6 +20,8 @@ public class ModZHCNLanProvider extends FabricLanguageProvider{
         translationBuilder.add(ModItems.LIGHTNINGSTICK, "闪电棒");
         translationBuilder.add(ModItems.CHEESE, "奶酪");
         translationBuilder.add(ModItems.STRAWBERY, "草莓");
+        translationBuilder.add(ModItems.TNT, "TNT");
+        translationBuilder.add(ModItems.JUMPEGG, "跳蛋");
 
         translationBuilder.add(ModBlocks.B_BLOCK, "方块B");
 

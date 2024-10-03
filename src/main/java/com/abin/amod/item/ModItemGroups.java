@@ -24,6 +24,8 @@ public class ModItemGroups {
                             entries.add(ModBlocks.B_BLOCK);
                             entries.add(ModItems.PROSPECTOR);
                             entries.add(ModItems.LIGHTNINGSTICK);
+                            entries.add(ModItems.TNT);
+                            entries.add(ModItems.JUMPEGG);
                     }).build());
     public static void registerModItemGroups() {
         AMod.LOGGER.info("Registering Mod Item Groups");
