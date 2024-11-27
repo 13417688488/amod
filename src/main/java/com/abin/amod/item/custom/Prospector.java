@@ -1,5 +1,6 @@
 package com.abin.amod.item.custom;
 
+import com.abin.amod.tags.ModBlockTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.client.gui.screen.Screen;
@@ -27,7 +28,6 @@ public class Prospector extends Item {
         if (!world.isClient()){
             boolean foundBlock = false;
             if(!Screen.hasShiftDown()){
-
                 for (int i=0;i<=pos.getY()+64;i++) {
                     for(int j = 0;j<5;j++){
                         for(int k = 0;k<5;k++){
@@ -69,11 +69,6 @@ public class Prospector extends Item {
     }
 
     private boolean isRightBlock(BlockState blockState) {
-        if(blockState.isOf(Blocks.DIAMOND_ORE)||blockState.isOf(Blocks.IRON_ORE)){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return blockState.isIn(ModBlockTags.ORE_LIST);
     }
 }

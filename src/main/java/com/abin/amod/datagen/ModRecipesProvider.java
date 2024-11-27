@@ -3,6 +3,7 @@ package com.abin.amod.datagen;
 import com.abin.amod.AMod;
 import com.abin.amod.block.ModBlocks;
 import com.abin.amod.item.ModItems;
+import com.abin.amod.tags.ModItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
@@ -47,6 +48,10 @@ public class ModRecipesProvider extends FabricRecipeProvider {
                 .criterion("has_item", RecipeProvider.conditionsFromItem(Items.SUGAR))
                 .criterion("has_item", RecipeProvider.conditionsFromItem(Items.REDSTONE))
                 .offerTo(exporter, Identifier.of(AMod.MOD_ID, "a"));
-
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Items.SUGAR,3)
+                .pattern("###")
+                .input('#', ModItemTags.SUGAR_TAG)
+                .criterion("has_item", RecipeProvider.conditionsFromItem(Items.BEETROOT))
+                .offerTo(exporter, Identifier.of(AMod.MOD_ID, "beetroot_to_sugar"));
     }
 }

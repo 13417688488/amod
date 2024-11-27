@@ -26,6 +26,10 @@ public class ModItemGroups {
                             entries.add(ModItems.LIGHTNINGSTICK);
                             entries.add(ModItems.TNT);
                             entries.add(ModItems.JUMPEGG);
+                            entries.add(ModItems.GUN);
+                            entries.add(ModItems.FIREBALLSTICK);
+                            entries.add(ModItems.HUB);
+                            entries.add(ModItems.MAGICMIRROR);
                     }).build());
     public static void registerModItemGroups() {
         AMod.LOGGER.info("Registering Mod Item Groups");

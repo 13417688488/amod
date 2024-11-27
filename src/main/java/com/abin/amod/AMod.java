@@ -3,6 +3,8 @@ package com.abin.amod;
 import com.abin.amod.block.ModBlocks;
 import com.abin.amod.item.ModItemGroups;
 import com.abin.amod.item.ModItems;
+import com.abin.amod.tags.ModBlockTags;
+import com.abin.amod.tags.ModItemTags;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -24,6 +26,8 @@ public class AMod implements ModInitializer {
 		ModItemGroups.registerModItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockTags.registerModBlockTags();
+		ModItemTags.registerModItemTags();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

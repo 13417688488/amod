@@ -1,10 +1,7 @@
 package com.abin.amod.item;
 
 import com.abin.amod.AMod;
-import com.abin.amod.item.custom.JumpEgg;
-import com.abin.amod.item.custom.LightningStick;
-import com.abin.amod.item.custom.Prospector;
-import com.abin.amod.item.custom.Tnt;
+import com.abin.amod.item.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -27,9 +24,17 @@ public class ModItems {
 
     public static final Item LIGHTNINGSTICK = registerItems("lightningstick", new LightningStick(new Item.Settings()));
 
+    public static final Item FIREBALLSTICK = registerItems("fireballstick", new FireballStick(new Item.Settings()));
+
     public static final Item TNT = registerItems("tnt", new Tnt(new Item.Settings()));
 
+    public static final Item GUN = registerItems("gun", new Gun(new Item.Settings()));
+
     public static final Item JUMPEGG = registerItems("jump_egg", new JumpEgg(new Item.Settings()));
+
+    public static final Item HUB = registerItems("hub", new Hub(new Item.Settings()));
+
+    public static final Item MAGICMIRROR = registerItems("magicmirror", new MagicMirror(new Item.Settings()));
 
     public static Item registerItems(String id,Item item){
         return Registry.register(Registries.ITEM, Identifier.of(AMod.MOD_ID,id),item);
