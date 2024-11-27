@@ -26,6 +26,7 @@ public class ModZHCNLanProvider extends FabricLanguageProvider{
         translationBuilder.add(ModItems.FIREBALLSTICK, "火球棒");
         translationBuilder.add(ModItems.HUB, "传送门");
         translationBuilder.add(ModItems.MAGICMIRROR, "魔镜");
+        translationBuilder.add("item.amod.prospector.tooltip", "右键模糊搜索，shift+右键精准搜索");
 
         translationBuilder.add(ModBlocks.B_BLOCK, "方块B");
 

@@ -9,6 +9,7 @@
   "item.amod.lightningstick": "LIGHTNINGSTICK",
   "item.amod.magicmirror": "MAGICMIRROR",
   "item.amod.prospector": "PROSPECTOR",
+  "item.amod.prospector.tooltip": "Rightclick to fuzzy search, Shift+Rightclick to precise search",
   "item.amod.strawberry": "STRAWBERRY",
   "item.amod.tnt": "TNT",
   "itemGroup.a_group": "AMODItemGroup"
