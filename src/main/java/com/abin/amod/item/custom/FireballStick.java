@@ -31,9 +31,12 @@ public class FireballStick extends Item {
         // Spawn the lightning bolt.
 
         FireballEntity fireballEntity = new FireballEntity(EntityType.FIREBALL, world);
-
         fireballEntity.setPosition(frontOfPlayer.toCenterPos());
         world.spawnEntity(fireballEntity);
+        fireballEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0, 1.5F, 1);
+
+
+
 
         // Nothing has changed to the item stack,
         // so we just return it how it was.

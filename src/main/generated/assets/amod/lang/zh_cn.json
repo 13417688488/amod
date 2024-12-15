@@ -8,9 +8,13 @@
   "item.amod.jump_egg": "跳蛋",
   "item.amod.lightningstick": "闪电棒",
   "item.amod.magicmirror": "魔镜",
+  "item.amod.magicstick": "魔棒",
+  "item.amod.plate": "盘子",
   "item.amod.prospector": "探矿器",
   "item.amod.prospector.tooltip": "右键模糊搜索，shift+右键精准搜索",
   "item.amod.strawberry": "草莓",
+  "item.amod.test": "测试",
   "item.amod.tnt": "TNT",
+  "item.amod.vampiricscepter": "吸血魔杖",
   "itemGroup.a_group": "AMOD物品组"
 }

@@ -27,8 +27,11 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.HUB, "HUB");
         translationBuilder.add(ModItems.MAGICMIRROR, "MAGICMIRROR");
         translationBuilder.add("item.amod.prospector.tooltip","Rightclick to fuzzy search, Shift+Rightclick to precise search");
-
+        translationBuilder.add(ModItems.PLATE, "Plate");
         translationBuilder.add(ModBlocks.B_BLOCK, "BLOCKB");
+        translationBuilder.add(ModItems.MAGICSTICK, "MAGICSTICK");
+        translationBuilder.add(ModItems.TEST, "TEST");
+        translationBuilder.add(ModItems.VAMPIRICSCEPTER, "VAMPIRICSCEPTER");
 
         translationBuilder.add("itemGroup.a_group","AMODItemGroup");
     }

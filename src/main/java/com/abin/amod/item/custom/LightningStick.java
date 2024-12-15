@@ -31,6 +31,7 @@ public class LightningStick extends Item {
         lightningBolt.setPosition(frontOfPlayer.toCenterPos());
         world.spawnEntity(lightningBolt);
 
+
         // Nothing has changed to the item stack,
         // so we just return it how it was.
         return TypedActionResult.success(user.getStackInHand(hand));

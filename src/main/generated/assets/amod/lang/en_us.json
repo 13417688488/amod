@@ -8,9 +8,13 @@
   "item.amod.jump_egg": "JUMPEGG",
   "item.amod.lightningstick": "LIGHTNINGSTICK",
   "item.amod.magicmirror": "MAGICMIRROR",
+  "item.amod.magicstick": "MAGICSTICK",
+  "item.amod.plate": "Plate",
   "item.amod.prospector": "PROSPECTOR",
   "item.amod.prospector.tooltip": "Rightclick to fuzzy search, Shift+Rightclick to precise search",
   "item.amod.strawberry": "STRAWBERRY",
+  "item.amod.test": "TEST",
   "item.amod.tnt": "TNT",
+  "item.amod.vampiricscepter": "VAMPIRICSCEPTER",
   "itemGroup.a_group": "AMODItemGroup"
 }

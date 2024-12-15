@@ -14,17 +14,21 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
+    public static final Item VAMPIRICSCEPTER = registerItems("vampiricscepter", new VampiricScepter(new Item.Settings().maxCount(1)));
+
+    public static final Item PLATE = registerItems("plate", new Item(new Item.Settings()));
+
     public static final Item A = registerItems("a", new Item(new Item.Settings()));
 
-    public static final Item CHEESE = registerItems("cheese", new Item(new Item.Settings().food(ModFoodComponents.CHEESE)));
+    public static final Item CHEESE = registerItems("cheese", new Item(new Item.Settings().food(ModFoodComponents.CHEESE).maxCount(99)));
 
     public static final Item STRAWBERY = registerItems("strawberry", new Item(new Item.Settings().food(ModFoodComponents.STRAWBERRY)));
 
-    public static final Item PROSPECTOR = registerItems("prospector", new Prospector(new Item.Settings().maxDamage(127)));
+    public static final Item PROSPECTOR = registerItems("prospector", new Prospector(new Item.Settings().maxDamage(127).maxCount(1)));
 
-    public static final Item LIGHTNINGSTICK = registerItems("lightningstick", new LightningStick(new Item.Settings()));
+    public static final Item LIGHTNINGSTICK = registerItems("lightningstick", new LightningStick(new Item.Settings().maxCount(1)));
 
-    public static final Item FIREBALLSTICK = registerItems("fireballstick", new FireballStick(new Item.Settings()));
+    public static final Item FIREBALLSTICK = registerItems("fireballstick", new FireballStick(new Item.Settings().maxCount(1)));
 
     public static final Item TNT = registerItems("tnt", new Tnt(new Item.Settings()));
 
@@ -32,9 +36,15 @@ public class ModItems {
 
     public static final Item JUMPEGG = registerItems("jump_egg", new JumpEgg(new Item.Settings()));
 
-    public static final Item HUB = registerItems("hub", new Hub(new Item.Settings()));
+    public static final Item HUB = registerItems("hub", new Hub(new Item.Settings().maxCount(1)));
 
-    public static final Item MAGICMIRROR = registerItems("magicmirror", new MagicMirror(new Item.Settings()));
+    public static final Item MAGICMIRROR = registerItems("magicmirror", new MagicMirror(new Item.Settings().maxCount(1)));
+
+    public static final Item MAGICSTICK = registerItems("magicstick", new MagicStick(new Item.Settings().maxCount(1)));
+
+    public static final Item TEST = registerItems("test", new Test(new Item.Settings()));
+
+
 
     public static Item registerItems(String id,Item item){
         return Registry.register(Registries.ITEM, Identifier.of(AMod.MOD_ID,id),item);

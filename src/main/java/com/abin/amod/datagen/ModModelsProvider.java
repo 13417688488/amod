@@ -32,6 +32,10 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FIREBALLSTICK, Models.GENERATED);
         itemModelGenerator.register(ModItems.HUB, Models.GENERATED);
         itemModelGenerator.register(ModItems.MAGICMIRROR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGICSTICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TEST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VAMPIRICSCEPTER, Models.GENERATED);
 
     }
 }

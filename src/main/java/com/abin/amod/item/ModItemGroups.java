@@ -30,6 +30,10 @@ public class ModItemGroups {
                             entries.add(ModItems.FIREBALLSTICK);
                             entries.add(ModItems.HUB);
                             entries.add(ModItems.MAGICMIRROR);
+                            entries.add(ModItems.PLATE);
+                            entries.add(ModItems.MAGICSTICK);
+                            entries.add(ModItems.TEST);
+                            entries.add(ModItems.VAMPIRICSCEPTER);
                     }).build());
     public static void registerModItemGroups() {
         AMod.LOGGER.info("Registering Mod Item Groups");
